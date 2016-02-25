@@ -12,7 +12,7 @@ The portability of this AI program (holding storage and running memory cost) and
 
 ![image](predictiveprogram.png)
 
-Assume that the **current practice** on your client side is just using color histogram data and linear SVM. For this project, you are to carry out a business feasibility evaluation project that try to propose a *feasible* improvement over the current practice in terms of running cost (storage, memory and time) **and** prediction accuracy. 
+Assume that the **current practice** on your client side is just using [color histogram](https://en.wikipedia.org/wiki/Color_histogram) data and linear SVM. For this project, you are to carry out a business feasibility evaluation project that try to propose a *feasible* improvement over the current practice in terms of running cost (storage, memory and time) **and** prediction accuracy. 
 
 Throughout the course of this project, we will give tutorials on the following topics:
 
