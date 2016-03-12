@@ -1,4 +1,11 @@
-#############################################
+install.packages("EBImage")
+library(devtools)
+library(EBImage)
+source("http://bioconductor.org/biocLite.R")  
+biocLite()  
+biocLite("EBImage") 
+
+a#############################################
 ### Main execution script for experiments ###
 #############################################
 
@@ -7,7 +14,8 @@
 ### ADS Spring 2016
 
 ### Specify directories
-setwd("./proj3_sample")
+
+setwd("/Users/JPC/Documents/Columbia/2nd Semester/1. Applied Data Science/2. Homeworks/Project 3/Project_CatsVsDogs")
 
 img_train_dir <- "./data/zipcode_train/"
 img_test_dir <- "./data/zipcode_test/"
